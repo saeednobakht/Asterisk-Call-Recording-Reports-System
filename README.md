@@ -4,3 +4,5 @@
   <a href="#"><img width="200" src="https://www.issabel.ir/logos/large_issabel-iogo-90.png" alt="Issabel"></a>
   <a href="#"><img width="200" src="https://www.freepbx.org/wp-content/uploads/Sangoma_FreePBX_Logo_RGB_hori-pos-e1588854523908.png" alt="FreePBX"></a>
 </p>
+> **Disclaimer:** This project is only for personal usage and communication, please do not sell this script
+
