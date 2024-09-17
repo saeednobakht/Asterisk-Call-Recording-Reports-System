@@ -1,0 +1,62 @@
+/* Extra CSS for Xpanel 20+ */
+
+/* --- plesk loader ---*/
+#loader {
+  font-family: 'Segoe UI', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #fcfcfc;
+}
+#loader {
+  margin: auto auto;
+  height: 55px;
+  width: 321px;
+}
+#loader table {
+  border: 0;
+}
+#loaderContainer #loader td {
+  padding: 0;
+  height: 55px;
+  direction: ltr;
+  vertical-align: middle;
+  background: url(../images/loader/loading-bg.png) 0 0 no-repeat;
+}
+#loader p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#loader img {
+  margin: 0 8px -3px 0;
+  vertical-align: inherit;
+}
+#loader strong {
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0;
+}
+#loader br {
+  display: none;
+}
+#loaderContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+#loaderContainer td {
+  background-image: url(../images/loader/transparent.gif);
+  text-align: center;
+
+/*padding-top: 150px;
+  vertical-align: top;*/
+}
+#loaderContainer td td {
+  padding-top: 0;
+  text-align: left;
+}

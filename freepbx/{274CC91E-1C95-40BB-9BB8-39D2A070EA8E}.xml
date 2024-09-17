@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configuration date="2024/09/16" author="e.World Technology Ltd.">
+<project id="{274CC91E-1C95-40BB-9BB8-39D2A070EA8E}" file="C:\Users\Admin\Documents\PHPMaker\Projects\FreePBX\freepbx.pmp" name="freepbx" product="PHPMaker" version="12.0" datetime="2024/09/16 12:40:01" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+<table id="cdr" name="cdr" caption="cdr" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="recordingfile_php" name="recordingfile.php" caption="RecordingFile" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="config_inc_php" name="config.inc.php" caption="Config.Inc" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="config_php" name="config.php" caption="Config" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="config_txt" name="config.txt" caption="ConfigTxT" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+</project></configuration>

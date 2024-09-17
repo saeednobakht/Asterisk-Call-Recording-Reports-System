@@ -1,0 +1,4 @@
+date/time	script	user	action	table	field	key value	old value	new value
+2024/09/15 16:37:08	/xpanel/logout.php	Administrator	logout	::1				
+2024/09/15 16:38:48	/xpanel/login.php	admin	login	::1				
+2024/09/15 16:39:53	/xpanel/login.php	admin	login	::1				

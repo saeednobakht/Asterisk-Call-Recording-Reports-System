@@ -1,0 +1,373 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quick Installation</title>
+</head>
+
+<body>
+
+<div class="left">           
+
+ 
+<div>
+<h2><a name="quickinstallation" id="quickinstallation"></a>Quick Installation</h2>   
+<p>1. Download  <a href="../download/html5_lightbox_free.zip">Free Version HTML5 LightBox</a>, Unzip the downloaded file, copy or upload the folder <code>html5lightbox</code> to your web server</p>
+<p>2. Reference the file<code>jquery.js</code> and  <code>html5lightbox.js</code> which is in the folder <code>html5lightbox</code> before the <code>&lt;/head&gt;</code> of your web page. If you already have a jQuery script in your web page, you need to add <code>html5lightbox.js</code> after your jQuery file. The minimum required version of jQuery is 1.6.</p>
+<div class="inlinecode">
+<pre><span style="color:#ff0000">&lt;script </span>type="<span style="color:#0000ff">text/javascript</span>" src="<span style="color:#0000ff">html5lightbox/jquery.js</span>"<span style="color:#ff0000">&gt;</span><span style="color:#ff0000">&lt;/script&gt;</span>
+<span style="color:#ff0000">&lt;script </span>type="<span style="color:#0000ff">text/javascript</span>" src="<span style="color:#0000ff">html5lightbox/html5lightbox.js</span>"<span style="color:#ff0000">&gt;</span><span style="color:#ff0000">&lt;/script&gt;</span></pre></div>
+
+<p>If your website already has a jQuery, do not add the jquery.js line, only add the html5lightbox.js AFTER the existing jquery on your webstie: </p>
+<div class="inlinecode">
+<pre><span style="color:#ff0000">&lt;script </span>type="<span style="color:#0000ff">text/javascript</span>" src="<span style="color:#0000ff">html5lightbox/html5lightbox.js</span>"<span style="color:#ff0000">&gt;</span><span style="color:#ff0000">&lt;/script&gt;</span></pre></div>
+
+<p>3. Add a <code>class="html5lightbox"</code> attribute to any link tag to activate the Lightbox effect</p>
+<div class="inlinecode">
+  <pre><span style="color:#ff0000">&lt;a </span>href="<span style="color:#0000ff">images/Toronto_1024.jpg</span>" class="<span style="color:#0000ff">html5lightbox</span>" title="<span style="color:#0000ff">Toronto</span>"<span style="color:#ff0000">&gt;</span>Image<span style="color:#ff0000">&lt;/a&gt;</span>
+<span style="color:#ff0000">&lt;a </span>href="<span style="color:#0000ff">images/carousel.mp4</span>" class="<span style="color:#0000ff">html5lightbox</span>" data-width="<span style="color:#0000ff">480</span>" data-height="<span style="color:#0000ff">320</span>" title="<span style="color:#0000ff">WordPress Carousel</span>"<span style="color:#ff0000">&gt;</span>Video<span style="color:#ff0000">&lt;/a&gt;</span></pre>
+</div>
+<p>To show a caption, you can use the <code>title</code> attribute, to define the size of a video or Flash SWF file, you can use the <code>data-width</code> and <code>data-height</code> attributes.</p>
+<p>If you have a group of images and videos, you can use the attribute <code>data-group</code> to create a gallery. You can use <code>data-thumbnail</code> to add thumbnail navigation to the gallery.</p>
+<div class="inlinecode">
+  <pre><span style="color:#ff0000">&lt;a </span>href="<span style="color:#0000ff">images/Toronto_1024.jpg</span>" class="<span style="color:#0000ff">html5lightbox</span>" data-group="<span style="color:#0000ff">mygroup</span>" data-thumbnail="<span style="color:#0000ff">images/Toronto_96.jpg</span>" title="<span style="color:#0000ff">Toronto</span>"<span style="color:#ff0000">&gt;</span>Image1<span style="color:#ff0000">&lt;/a&gt;</span>
+<span style="color:#ff0000">&lt;a </span>href="<span style="color:#0000ff">images/Sunrise_1024.jpg</span>" class="<span style="color:#0000ff">html5lightbox</span>" data-group="<span style="color:#0000ff">mygroup</span>" data-thumbnail="<span style="color:#0000ff">images/Sunrise_96.jpg</span>" title="<span style="color:#0000ff">Sunrise</span>"<span style="color:#ff0000">&gt;</span>Image2<span style="color:#ff0000">&lt;/a&gt;</span>
+<span style="color:#ff0000">&lt;a </span>href="<span style="color:#0000ff">images/carousel.mp4</span>" class="<span style="color:#0000ff">html5lightbox</span>" data-group="<span style="color:#0000ff">mygroup</span>"  data-thumbnail="<span style="color:#0000ff">images/wordpresscarousel_120.jpg</span>" data-width="<span style="color:#0000ff">480</span>" data-height="<span style="color:#0000ff">320</span>" title="<span style="color:#0000ff">Wordpress Carousel</span>"<span style="color:#ff0000">&gt;</span>Video<span style="color:#ff0000">&lt;/a&gt;</span></pre>
+</div>
+</div>
+
+<div>
+<h2><a name="easybranding" id="easybranding"></a>Easy Branding</h2>   
+<p>It's easy to add an image branding to HTML5 LightBox, all you need to do is adding the following scripts to the &lt;head&gt; section of your webpage. </p>
+<div class="inlinecode">
+<pre><span style="color:#ff0000">&lt;script </span>type="<span style="color:#0000ff">text/javascript</span>"<span style="color:#ff0000">&gt;</span><br>    var html5lightbox_options = {
+        watermark: "<span style="color:#0000ff">http://html5box.com/images/html5boxlogo.png</span>",
+        watermarklink: "<span style="color:#0000ff">http://html5box.com</span>"<br>    };<br><span style="color:#ff0000">&lt;/script&gt;</span></pre>
+</div>
+
+<p>If you don't like the link on the watermark image, you can change the code to following:</p>
+<div class="inlinecode">
+<pre><span style="color:#ff0000">&lt;script </span>type="<span style="color:#0000ff">text/javascript</span>"<span style="color:#ff0000">&gt;</span><br>    var html5lightbox_options = {
+        watermark: "<span style="color:#0000ff">http://html5box.com/images/html5boxlogo.png</span>",
+        watermarklink: "<span style="color:#0000ff"></span>"<br>    };<br><span style="color:#ff0000">&lt;/script&gt;</span></pre>
+</div>
+</div>
+
+<h2><a name="news" id="news"></a>What's New</h2>
+
+<p>Version 8.2</p>
+<ul>
+	<li>Fix a bug of crossfade effect</li>
+  <li>Fix a bug when the text is placed on the left or right side of the lightbox
+</li></ul>
+
+<p>Version 8.1</p>
+<ul>
+	<li>Support video subtitle</li>
+</ul>
+
+<p>Version 8.0</p>
+<ul>
+	<li>Display loading animation when opening a webpage in lightbox</li>
+</ul>
+
+<p>Version 7.9</p>
+<ul>
+	<li>Add an option <code>mutevideo</code> to mute the video by default</li>
+</ul>
+
+<p>Version 7.8</p>
+<ul>
+	<li>Add an option to place the text outside of the image lightbox</li>
+</ul>
+
+<p>Version 7.7</p>
+<ul>
+	<li>Support opening a web link when clicking on the image or the HTML5 video in the lightbox</li>
+</ul>
+
+<p>Version 7.6</p>
+<ul>
+	<li>Fix the issue of Vimeo and YouTube videos not autoplay on Chrome and Safari</li>
+</ul>
+
+<p>Version 7.5</p>
+<ul>
+	<li>Fix the bug when the option arrowloop is false</li>
+</ul>
+
+<p>Version 7.4</p>
+<ul>
+	<li>Support sliding effect</li>
+	<li>Change lightbox HTML elements from ID to class name</li>
+</ul>
+
+<p>Version 7.3</p>
+<ul>
+	<li>Fix a bug when playing MP4 videos in fullscreen on some Android phones</li>
+</ul>
+
+<p>Version 7.2</p>
+<ul>
+	<li>Fix a bug under Android</li>
+</ul>
+
+<p>Version 7.1</p>
+<ul>
+	<li>Fix a bug of displaying PDF files in lightbox</li>
+</ul>
+
+<p>Version 7.0</p>
+<ul>
+	<li>Add a class name to the image counter in lightbox title</li>
+	<li>Trigger an event when the lightbox is closed</li>
+</ul>
+
+<p>Version 6.9</p>
+<ul>
+	<li>Open PDF file in lightbox popup</li>
+</ul>
+
+<p>Version 6.8</p>
+<ul>
+	<li>Support autoopen and autoopendelay in JavaScript configuration variable html5lightbox_options</li>
+	<li>Support an option autoclosedelay to setup the delay time to close the lightbox when a video is finished</li>
+</ul>
+
+<p>Version 6.7</p>
+<ul>
+	<li>Fix a problem under Windows Chrome: when pressing esc key to exit the full screen video, it will close the lightbox popup at the same time.</li>
+</ul>
+
+<p>Version 6.6</p>
+<ul>
+	<li>Fix a problem under Internet Explorer: when pressing esc key to exit the full screen video, it will close the lightbox popup at the same time.</li>
+</ul>
+
+<p>Version 6.5</p>
+<ul>
+	<li>Change fullscreen mode default to false on small screen devices</li>
+</ul>
+
+<p>Version 6.4</p>
+<ul>
+	<li>Change text effect of the fullscreen mode on small screen devices</li>
+	<li>Enable the fullscreen mode on small screen devices</li>
+</ul>
+
+<p>Version 6.3</p>
+<ul>
+	<li>Add an option to remove border and margin on the fullscreen mode</li>
+	<li>Add an option to only enable the full screen mode on small screen devices</li>
+</ul>
+
+<p>Version 6.2</p>
+<ul>
+	<li>Support social media share buttons: Facebook, Twitter and Pinterest</li>
+</ul>
+
+<p>Version 6.1</p>
+<ul>
+	<li>Use native HTML5 video controls on Firefox and Inetnet Explorer by default</li>
+</ul>
+
+<p>Version 6.0</p>
+<ul>
+	<li>Support data tag autoopen, autoopendelay and autoclose</li>
+	<li>Support Wistia video</li>
+</ul>
+
+<p>Version 5.9</p>
+<ul>
+	<li>Support using data tag html5videoposter to specify a poster image for HTML5 video player</li>
+</ul>
+
+<p>Version 5.8</p>
+<ul>
+	<li>Fix a bug of playing YouTube video on Firefox</li>
+</ul>
+
+<p>Version 5.7</p>
+<ul>
+	<li>Fix the position of lightbox when the responsive option is false</li>
+</ul>
+
+<p>Version 5.6</p>
+<ul>
+	<li>Fix a bug in keyboard navigation</li>
+</ul>
+
+<p>Version 5.5</p>
+<ul>
+	<li>Fix a bug in lightbox auto slideshow</li>
+</ul>
+
+<p>Version 5.4</p>
+<ul>
+	<li>Support lightbox auto slideshow</li>
+</ul>
+
+<p>Version 5.3</p>
+<ul>
+	<li>Support fullscreen mode</li>
+	<li>Support displaying text on bottom, inside, left and right of the lightbox</li>
+	<li>Support title prefix</li>
+</ul>
+
+<p>Version 5.2</p>
+<ul>
+	<li>Support iframe</li>
+</ul>
+
+<p>Version 5.1</p>
+<ul>
+	<li>Add an option to disable/enable touch swipe</li>
+	<li>Fix a minor bug of displaying div</li>
+</ul>
+
+<p>Version 5.0</p>
+<ul>
+	<li>Fix the bug when there are more than 6 vidoes on Google Chrome</li>
+	<li>Support iframe scrolling on iPhone and iPad</li>
+</ul>
+
+<p>Version 4.9</p>
+<ul>
+	<li>Support opening a div in lightbox</li>
+	<li>Add an option defaultvideovolume to specify the default volume of self-hosted mp4 and flv videos</li>
+</ul>
+
+<p>Version 4.8</p>
+<ul>
+	<li>Fix a bug in thumbnail navigation</li>
+</ul>
+
+<p>Version 4.7</p>
+<ul>
+	<li>Trigger event html5lightbox.videoended for HTML5 video player</li>
+</ul>
+
+<p>Version 4.6</p>
+<ul>
+	<li>Add four events: onfirstitem, onlastitem, onfirstarrowclicked, onlastarrowclicked</li>
+</ul>
+      
+<p>Version 4.5</p>
+<ul>
+	<li>Fix the bug in Flash video player</li>
+</ul>
+
+<p>Version 4.4</p>
+<ul>
+	<li>Support events onshowitem and oncloselightbox</li>
+</ul>
+
+<p>Version 4.3</p>
+<ul>
+	<li>Support https</li>
+</ul>
+
+<p>Version 4.2</p>
+<ul>
+	<li>Support Google Analytics</li>
+</ul>
+
+<p>Version 4.1</p>
+<ul>
+	<li>Fix minor bugs</li>
+</ul>
+
+<p>Version 4.0</p>
+<ul>
+	<li>Fix minor bugs</li>
+</ul>
+
+<p>Version 3.9</p>
+<ul>
+	<li>Fix a minor bug in Version 3.8</li>
+</ul>
+
+<p>Version 3.8</p>
+<ul>
+	<li>Add an option to hide video control bar</li>
+	<li>Add an option to disable looping arrow buttons</li>
+</ul>
+
+<p>Version 3.7</p>
+<ul>
+	<li>Add an option to disable responsive and keep the Lightbox size as specified.</li>
+</ul>
+
+<p>Version 3.6</p>
+<ul>
+  <li>Display description under title</li>
+  <li>Use custom HTML5 video player controls that look same across all web browsers</li>
+</ul>
+<p>Version 3.5</p>
+<ul>
+  <li>Support thumbnail navigation</li>
+  <li>Fully responsive</li>
+  <li>Fix a minor bug of playing video on Android devices</li>
+</ul>
+<p>Version 3.1:</p>
+<ul>
+  <li>Support YouTube URL parameters, for example, you can use the following URL to play HD 1080p video: https://www.youtube.com/embed/YE7VzlLtp-4?rel=0&amp;vq=hd1080</li>
+</ul>
+<p>Version 3.0:</p>
+<ul>
+  <li>Add an option barheight to specify the height of the text area</li>
+</ul>
+<p>Version 2.9:</p>
+<ul>
+  <li>Hide the loading button after a webpage is loaded</li>
+</ul>
+<p>Version 2.8:</p>
+<ul>
+  <li>Fix a bug with jQuery 1.10</li>
+</ul>
+<p>Version 2.7:</p>
+<ul>
+  <li>Change default value of option html5player to true</li>
+</ul>
+<p>Version 2.6:</p>
+<ul>
+  <li>Fix the bug of detecting Opera 15</li>
+</ul>
+<p>Version 2.5:</p>
+<ur>
+<ul>
+  <li>Fix the bug of duplicated HTML5 lightbox links</li>
+</ul>
+<p>Version 2.4:</p>
+<ur>
+<ul>
+  <li>Support touch swipe</li>
+  <li>Improve display of previous and next buttons</li>
+</ul>
+<p>Version 2.3:</p>
+<ur>
+<ul>
+  <li>Support HTML tag area</li>
+</ul>
+<p>Version 2.2:</p>
+<ur>
+<ul>
+  <li>Press ESC key to exit Lightbox</li>
+</ul>
+<p>Version 2.1:</p>
+<ur>
+<ul>
+  <li>Fix the issue with jQuery 1.9.0</li>
+</ul>
+
+<p>Version 2.0:</p>
+<ul>
+  <li>Fix the bug of playing FLV video </li>
+  <li>Change the way to get the folder of js file</li>
+</ul>
+
+
+<!-- InstanceEndEditable -->
+    </ur></ur></ur></ur></ur></div>
+</body>
+</html>

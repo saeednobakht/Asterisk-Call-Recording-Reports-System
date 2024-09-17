@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ew-language date="2024/9/16" version="12.0.6" id="ar" dir="rtl" name="Arabic" desc="Arabic" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="GMT"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="تم المسح"/>
+		<phrase id="actioninserted" value="تم الإدراج"/>
+		<phrase id="actioninsertedgridadd" value="تم الإدراج (متعدد)"/>
+		<phrase id="actionupdated" value="تم التحديث"/>
+		<phrase id="actionupdatedgridedit" value="تم التعديل (متعدد)"/>
+		<phrase id="actionupdatedmultiupdate" value="تم التحديث (متعدد)"/>
+		<phrase id="activateaccount" value="تم تنشيط حسابك"/>
+		<phrase id="activatefailed" value="فشل التحديث"/>
+		<phrase id="add" value="إضافة"/>
+		<phrase id="addblankrow" value="أضف صفاً خاليا" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addbtn" value="أضف"/>
+		<phrase id="addlink" value="أضف" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addmasterdetaillink" value="Master/Detail Add" class="icon-md-add ewIcon"/><!-- v11 -->
+		<phrase id="addsuccess" value="نجحت الإضافة"/>
+		<phrase id="advancedsearch" value="بحث متقدم"/><!-- v11 -->
+		<phrase id="advancedsearchbtn" value="بحث متقدم" class="icon-advanced-search ewIcon"/><!-- v11 -->
+		<phrase id="allrecords" value="الكل"/>
+		<phrase id="allword" value="جميع الكلمات"/>
+		<phrase id="alwaysask" value="أسأل دائماً عن إسم المستخدم وكلمة المرور"/>
+		<phrase id="anyword" value="أي كلمة"/>
+		<phrase id="audittrailautologin" value="دخول تلقائي"/>
+		<phrase id="audittrailfailedattempt" value="محاولة فاشلة: %n"/>
+		<phrase id="audittrailuserloggedin" value="المستخدم سجّل الدخول مسبقاً"/>
+		<phrase id="audittrailpasswordexpired" value="انتهت صلاحية كلمة المرور"/>
+		<phrase id="audittraillogin" value="تسجيل الدخول"/>
+		<phrase id="audittraillogout" value="تسجيل الخروج"/>
+		<phrase id="autologin" value="تسجيل الدخول تلقائياً حتى أقوم بتسجيل الخروج"/>
+		<phrase id="average" value="المتوسط"/>
+		<phrase id="backtolist" value="الرجوع للقائمة"/>
+		<phrase id="backtologin" value="الرجوع لصفحة تسجيل الدخول"/>
+		<phrase id="backtomasterrecordpage" value="عودة إلى الصفحة الرئيسية"/>
+		<phrase id="batchdeletebegin" value="*** بدأ حذف الدفعة ***"/>
+		<phrase id="batchdeleterollback" value="*** تراجع عن حذف الدفعة ***"/>
+		<phrase id="batchdeletesuccess" value="*** نجاح حذف الدفعة ***"/>
+		<phrase id="batchinsertbegin" value="*** بدأ إدراج الدفعة ***"/>
+		<phrase id="batchinsertrollback" value="*** تراجع عن إدراج الدفعة ***"/>
+		<phrase id="batchinsertsuccess" value="*** نجاح إدراج الدفعة ***"/>
+		<phrase id="batchupdatebegin" value="*** بدأ تحديث الدفعة ***"/>
+		<phrase id="batchupdaterollback" value="*** تراجع عن تحديث الدفعة ***"/>
+		<phrase id="batchupdatesuccess" value="*** نجاح تحديث الدفعة ***"/>
+		<phrase id="buttonactions" value="الإجراءات" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonaddedit" value="اضافة/تعديل" class="icon-addedit ewIcon"/><!-- v11 -->
+		<phrase id="buttondetails" value="رئيسي / تفصيلي" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="buttonexport" value="تصدير" class="icon-export ewIcon"/><!-- v11 -->
+		<phrase id="buttonlistoptions" value="خيارات" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonsearch" value="بحث" class="icon-search ewIcon"/><!-- v11 -->
+		<phrase id="cancelbtn" value="الغاء"/>
+		<phrase id="cancellink" value="الغاء" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="changepwd" value="تغيير كلمة المرور"/>
+		<phrase id="changepwdpage" value="صفحة تغيير كلمة المرور"/>
+		<phrase id="changepwdbtn" value="تغيير كلمة المرور"/>
+		<phrase id="choosefilebtn" value="Choose..."/><!-- v11 -->
+		<phrase id="choosefile" value="Choose file"/><!-- v11 -->
+		<phrase id="choosefiles" value="Choose files"/><!-- v11 -->
+		<phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1"/><!-- v12 -->
+		<phrase id="confirm" value="تأكيد"/>
+		<phrase id="confirmbtn" value="تأكيد"/>
+		<phrase id="confirmcancel" value="Do you want to cancel?" client="1"/><!-- v12 -->
+		<phrase id="confirmpassword" value="تأكيد كلمة المرور"/>
+		<phrase id="conflictcancellink" value="إلغاء"/>
+		<phrase id="lightboxtitle" value=" " client="1"/><!-- v11 -->
+		<phrase id="lightboxcurrent" value="image {current} of {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+		<phrase id="lightboxprevious" value="previous" client="1"/><!-- v11 -->
+		<phrase id="lightboxnext" value="next" client="1"/><!-- v11 -->
+		<phrase id="lightboxclose" value="close" client="1"/><!-- v11 -->
+		<phrase id="lightboxxhrerror" value="This content failed to load." client="1"/><!-- v11 -->
+		<phrase id="lightboximgerror" value="This image failed to load." client="1"/><!-- v11 -->
+		<phrase id="copy" value="نسخ"/>
+		<phrase id="copylink" value="نسخ" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="count" value="عدد"/>
+		<phrase id="countselected" value="%s selected" client="1"/><!-- v12 -->
+		<phrase id="currentpassword" value="Current password: " client="1"/><!-- v12 -->
+		<phrase id="customactioncompleted" value="العمل '%s' اكتمل"/>
+		<phrase id="customactioncancelled" value="الاجراء '%s' is تم الغاءه"/>
+		<phrase id="customactionfailed" value="'%s' failed"/><!-- v12 -->
+		<phrase id="customactionnotallowed" value="'%s' not allowed"/><!-- v12 -->
+		<phrase id="customview" value="قسم&amp;nbsp;"/>
+		<phrase id="delete" value="حذف"/>
+		<phrase id="deletebtn" value="حذف"/>
+		<phrase id="deletecancelled" value="الغاء الحذف"/>
+		<phrase id="deleteconfirmmsg" value="هل تريد حذف هذا السجل؟" client="1"/>
+		<phrase id="deletefilter" value="Delete filter"/><!-- v12 -->
+		<phrase id="deletefilterconfirm" value="Delete filter %s?" client="1"/><!-- v12 -->
+		<phrase id="deletelink" value="حذف" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deleteselectedlink" value="حذف السجلات المحددة" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deletesuccess" value="نجح الحذف"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="&lt;span dir='rtl'&gt;(%c)&lt;/span&gt;"/><!-- v11 -->
+		<phrase id="masterdetailcopylink" value="رئيسي / تفصيلي النسخ" class="icon-md-copy ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaileditlink" value="رئيسي / تفصيلي تحرير" class="icon-md-edit ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaillistlink" value="قائمة التفاصيل" class="icon-table ewIcon"/><!-- v11 -->
+		<phrase id="masterdetailviewlink" value="عرض رئيسي / تفصيلي" class="icon-md-view ewIcon"/><!-- v11 -->
+		<phrase id="dupindex" value="قيمة مكررة '%v' لفهرس فريد '%f'"/>
+		<phrase id="dupkey" value="تكرار المفتاح الأساسي: '%f'"/>
+		<phrase id="edit" value="تعديل"/>
+		<phrase id="editlink" value="تعديل" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="enterfiltername" value="Enter filter name" client="1"/><!-- v12 -->
+		<phrase id="enternewpassword" value="رجاءً دخل كلمة مرور جديدة" client="1"/>
+		<phrase id="enteroldpassword" value="رجاءً ادخل كلمة المرور القديمة" client="1"/>
+		<phrase id="enterpassword" value="رجاءً ادخل كلمة المرور" client="1"/>
+		<phrase id="enterpwd" value="رجاءً ادخل كلمة المرور" client="1"/>
+		<phrase id="enterrequiredfield" value="الرجاء إدخال الحقل الإجباري - %s"/><!-- v11 -->
+		<phrase id="entersearchcriteria" value="الرجاء إدخال معايير البحث."/>
+		<phrase id="enterusername" value="الرجاء إدخال اسم المستخدم" client="1"/>
+		<phrase id="entervalidatecode" value="إدخال رمز التحقق المعروض" client="1"/><!-- v11 -->
+		<phrase id="entersenderemail" value="الرجاء إدخال البريد الإلكتروني للمرسل" client="1"/>
+		<phrase id="enterpropersenderemail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني لهذا المرسل أو عنوان البريد الإلكتروني غير صحيح" client="1"/>
+		<phrase id="enterrecipientemail" value="الرجاء إدخال البريد الإلكتروني للمستلم" client="1"/>
+		<phrase id="enterproperrecipientemail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني لهذا المستلم أو عنوان البريد الإلكتروني غير صحيح" client="1"/>
+		<phrase id="enterproperccemail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني (نسخة) أو عنوان البريد الإلكتروني" client="1"/>
+		<phrase id="enterproperbccemail" value="يتجاوز الحد الأقصى لعدد البريد الإلكتروني (نسخة مخفية) أو عنوان البريد الإلكتروني غير صحيح" client="1"/>
+		<phrase id="entersubject" value="الرجاء إدخال الموضوع" client="1"/>
+		<phrase id="emailformsender" value="من"/>
+		<phrase id="emailformrecipient" value="الى"/>
+		<phrase id="emailformcc" value="نسخة"/>
+		<phrase id="emailformbcc" value="نسخة مخفية"/>
+		<phrase id="emailformsubject" value="الموضوع"/>
+		<phrase id="emailformmessage" value="نص الرسالة"/>
+		<phrase id="emailformcontenttype" value="إرسل كـ"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="الرجاء إدخال اسم المستخدم" client="1"/>
+		<phrase id="entervalidemail" value="الرجاء إدخال عنوان بريد إلكتروني صحيح!" client="1"/>
+		<phrase id="exactphrase" value="العبارة بالضبط"/>
+		<phrase id="exceedmaxretry" value="تجاوز الحد الأقصى لعدد محاولات الدخول. الحساب مقفل. يرجى المحاولة مرة أخرى في غضون %t دقائق"/>
+		<phrase id="exceedmaxemailexport" value="تجاوز الحد الأقصى لعدد التصدير للبريد الإلكتروني. يرجى المحاولة مرة أخرى في وقت لاحق"/>
+		<phrase id="exporttocsv" value="تصدير لـ CSV" class="icon-csv ewIcon"/><!-- v11 -->
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" class="icon-email ewIcon"/><!-- v11 -->
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="تصدير لـ Excel" class="icon-excel ewIcon"/><!-- v11 -->
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="تصدير لـ HTML" class="icon-html ewIcon"/><!-- v11 -->
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="تصدير لـ PDF" class="icon-pdf ewIcon"/><!-- v11 -->
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="تصدير لـ Word" class="icon-word ewIcon"/><!-- v11 -->
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="تصدير لـ XML" class="icon-xml ewIcon"/><!-- v11 -->
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="فشل إرسال البريد. "/>
+		<phrase id="fieldname" value="فشل الاسم"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="لم يتم العثور على ملف"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="filter" value="Filter"/><!-- v12 -->
+		<phrase id="filtername" value="Filter name" client="1"/><!-- v12 -->
+		<phrase id="filters" value="Filters" class="icon-filter ewIcon"/><!-- v12 -->
+		<phrase id="overwritebtn" value="إستبدال"/>
+		<phrase id="overwritelink" value="إستبدال"/>
+		<phrase id="forgotpwd" value="نسيت كلمة المرور"/>
+		<phrase id="goback" value="رجوع"/>
+		<phrase id="gridaddcancelled" value="اضافة متعدد الملغاة"/><!-- v11 -->
+		<phrase id="gridaddlink" value="اضافة متعدد" class="icon-grid-add ewIcon"/><!-- v11 -->
+		<phrase id="gridcancellink" value="إلغاء" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="grideditcancelled" value="تعديل متعدد الملغاة"/><!-- v11 -->
+		<phrase id="grideditlink" value="تعديل متعدد" class="icon-grid-edit ewIcon"/><!-- v11 -->
+		<phrase id="gridinsertlink" value="ادراج" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="gridsavelink" value="إحفظ" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="highlight" value="البارزة"/><!-- v11 -->
+		<phrase id="highlightbtn" value="البارزة" class="icon-highlight ewIcon"/><!-- v11 -->
+		<phrase id="homepage" value="الرئيسية" class="glyphicon glyphicon-home ewIcon"/><!-- v11 -->
+		<phrase id="incorrectcreditcard" value="رقم بطاقة الإعتماد غير صحيح"/>
+		<phrase id="incorrectdateymd" value="تاريخ غير صحيح، شكل التنسيق = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="تاريخ غير صحيح، شكل التنسيق = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="تاريخ غير صحيح، شكل التنسيق = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="تاريخ غير صحيح، شكل التنسيق = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="تاريخ غير صحيح، شكل التنسيق = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="تاريخ غير صحيح، شكل التنسيق = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="عنوان بريد الكتروني خاطئ" client="1"/>
+		<phrase id="incorrectfield" value="حقل خاطئ" client="1"/>
+		<phrase id="incorrectfloat" value="عدد حقيقي float غير صحيح" client="1"/>
+		<phrase id="incorrectguid" value="المعرف العالمي الفريد GUID غير صحيح" client="1"/>
+		<phrase id="incorrectinteger" value="عدد صحيح integer غير صحيح" client="1"/>
+		<phrase id="incorrectphone" value="رقم تلفون خاطئ" client="1"/>
+		<phrase id="incorrectregexp" value="التعبير العادي غير متطابق" client="1"/>
+		<phrase id="incorrectrange" value="لابد أن يكون الرقم بين %1 و %2" client="1"/>
+		<phrase id="incorrectssn" value="رقم الضمان الإجتماعي غير صحيح" client="1"/>
+		<phrase id="incorrecttime" value="وقت خاطئ (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="الرمز البريدي غير صحيح" client="1"/>
+		<phrase id="inlineaddlink" value="اضافة على نفس الصفحة" class="icon-inline-add ewIcon"/><!-- v11 -->
+		<phrase id="inlinecopylink" value="نسخ على نفس الصفحة" class="icon-inline-copy ewIcon"/><!-- v11 -->
+		<phrase id="inlineeditlink" value="تعديل على نفس الصفحة" class="icon-inline-edit ewIcon"/><!-- v11 -->
+		<phrase id="insertcancelled" value="إلغاء الإدراج"/>
+		<phrase id="insertfailed" value="فشل الإدراج" client="1"/>
+		<phrase id="insertlink" value="ادراج" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="insertsuccess" value="نجح الإدراج"/>
+		<phrase id="invalidemail" value="البريد الالكتروني غير صالح"/>
+		<phrase id="invalidfield" value="حقل غير صالح"/>
+		<phrase id="invalidkeyvalue" value="قيمة مفتاح غير صالحة"/>
+		<phrase id="invalidrecord" value="سجل غير صالح! المفتاح خالي" client="1"/>
+		<phrase id="invalidpostrequest" value="Invalid post request"/><!-- v11 -->
+		<phrase id="invalidparameter" value="معلمة غير صالحة"/>
+		<phrase id="invalidpassword" value="كلمة المرور غير صالحة"/>
+		<phrase id="invalidnewpassword" value="كلمة مرور جديدة غير صالحة"/>
+		<phrase id="invaliduidpwd" value="هوية المستخدم أو كلمة المرور غير صحيحة"/>
+		<phrase id="keep" value="احتفظ"/>
+		<phrase id="language" value="اللغة"/>
+		<phrase id="listactionbutton" value="Actions" class="icon-user ewIcon"/><!-- v12 -->
+		<phrase id="loading" value="تحميل ..." client="1"/>
+		<phrase id="login" value="تسجيل الدخول"/>
+		<phrase id="logincancelled" value="أُلغي تسجيل الدخول"/>
+		<phrase id="loginoptions" value="خيارات"/><!-- v11 -->
+		<phrase id="loginpage" value="تسجيل الدخول"/>
+		<phrase id="logout" value="تسجيل الخروج"/>
+		<phrase id="masterrecord" value="السجل الرئيسي: "/>
+		<phrase id="maxfilesize" value="تجاوز حجم الملف (%s بايت) الحد الأقصى" client="1"/>
+		<phrase id="messageok" value="موافق" client="1"/>
+		<phrase id="mismatchpassword" value="كلمة المرور غير متطابقة" client="1"/>
+		<phrase id="missinglookuptablename" value="اسم جدول البحث مفقود"/>
+		<phrase id="missingdisplayfieldname" value="اسم حقل العرض مفقود"/>
+		<phrase id="missingdisplayfieldvalue" value="قيمة حقل العرض مفقودة"/>
+		<phrase id="missinguserlevelid" value="معرف مستوى المستخدم مفقود"/>
+		<phrase id="missinguserlevelname" value="اسم مستوى المستخدم مفقود"/>
+		<phrase id="mobilemenu" value="القائمة"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="new" value="جديد"/>
+		<phrase id="newpassword" value="كلمة مرور جديدة"/>
+		<phrase id="newvalue" value="New value"/><!-- v12 -->
+		<phrase id="next" value="التالي" client="1"/>
+		<phrase id="noaddrecord" value="لاتوجد سجلات لإضافتها" client="1"/>
+		<phrase id="nofieldselected" value="لم يتم إختيار حقل للتحديث" client="1"/>
+		<phrase id="nopermission" value="ليس لديك إذن للوصول إلى هذه الصفحة."/>
+		<phrase id="noaddpermission" value="ليس لديك إذن لإضافة السجل."/>
+		<phrase id="nodeletepermission" value="ليس لديك الصلاحية لحذف السجل."/>
+		<phrase id="noeditpermission" value="ليس لديك الصلاحية لتعديل السجل."/>
+		<phrase id="norecord" value="لم يتم العثور على أية سجلات"/>
+		<phrase id="norecordforkey" value="لم يتم العثور على أية سجلات للمفتاح = "/>
+		<phrase id="norecordselected" value="لم يتم إختيار أية سجلات" client="1"/>
+		<phrase id="notablegenerated" value="لم تنشأ أي جداول"/>
+		<phrase id="nouserlevel" value="لا يوجد اعدادات لمستوى المستخدم."/>
+		<phrase id="of" value="من"/>
+		<phrase id="old" value="قديم"/>
+		<phrase id="oldpassword" value="كلمة المرور القديمة"/>
+		<phrase id="optionalreadyexist" value="الخيار موجود بالفعل"/>
+		<phrase id="page" value="صفحة"/>
+		<phrase id="pagerfirst" value="الاول"/>
+		<phrase id="pagerlast" value="الاخير"/>
+		<phrase id="pagernext" value="التالي"/>
+		<phrase id="pagerprevious" value="سابق"/>
+		<phrase id="password" value="كلمة المرور"/>
+		<phrase id="passwordmask" value="********"/><!-- v12 -->
+		<phrase id="passwordrequest" value="طلب كلمة مرور"/>
+		<phrase id="passwordchanged" value="تم تغيير كلمة المرور"/>
+		<phrase id="passwordexpired" value="انتهت مدة صلاحية كلمة المرور. الرجاء تغيير كلمة المرور."/>
+		<phrase id="passwordstrength" value="Strength: %p" client="1"/><!-- v12 -->
+		<phrase id="passwordtoosimple" value="Your password is too simple" client="1"/><!-- v12 -->
+		<phrase id="generatepassword" value="Generate password" class="glyphicon glyphicon-flash ewIcon"/><!-- v12 -->
+		<phrase id="permission" value="التصاريح" class="icon-user ewIcon"/><!-- v11 -->
+		<phrase id="permissionaddcopy" value="اضافة/نسخ"/>
+		<phrase id="permissiondelete" value="حذف"/>
+		<phrase id="permissionedit" value="تعديل"/>
+		<phrase id="permissionlistsearchview" value="قائمة / بحث / عرض"/>
+		<phrase id="permissionlist" value="قائمة"/>
+		<phrase id="permissionsearch" value="بحث"/>
+		<phrase id="permissionview" value="استعراض"/>
+		<phrase id="pickdate" value="اختيار التاريخ"/>
+		<phrase id="pleaseselect" value="الرجاء الإختيار" client="1"/>
+		<phrase id="pleasewait" value="رجاء إنتظر ..." client="1"/>
+		<phrase id="primarykeyunspecified" value="لم يتم تعيين المفتاح الرئيسي"/>
+		<phrase id="printerfriendly" value="الطباعة" class="icon-print ewIcon"/><!-- v11 -->
+		<phrase id="printerfriendlytext" value="الطباعة"/>
+		<phrase id="prev" value="السابق" client="1"/><!-- v12 -->
+		<phrase id="pwdsmssent" value="نام‌کاربری و رمزعبور شما به شماره همراهتان پیامک شد"/>
+		<phrase id="pwdemailsent" value="أُرسلت كلمة المرور إلى عنوان بريدك الالكتروني"/>
+		<phrase id="pwdsmsnotsent" value="ارسال پیامک حاوی اطلاعات کاربری با مشکل مواجه شد"/>
+		<phrase id="resetpwdemailsent" value="تم إرسال البريد الإلكتروني لإعادة تعيين كلمة المرور لك"/>
+		<phrase id="quicksearch" value="بحث سريع"/>
+		<phrase id="quicksearchbtn" value="بحث"/>
+		<phrase id="quicksearchauto" value="Auto" client="1"/><!-- v11 -->
+		<phrase id="quicksearchautoshort" value="" client="1"/><!-- v11 -->
+		<phrase id="quicksearchall" value="All keywords" client="1"/><!-- v11 -->
+		<phrase id="quicksearchallshort" value="All" client="1"/><!-- v11 -->
+		<phrase id="quicksearchany" value="Any keywords" client="1"/><!-- v11 -->
+		<phrase id="quicksearchanyshort" value="Any" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexact" value="Exact match" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexactshort" value="Exact" client="1"/><!-- v11 -->
+		<phrase id="record" value="سجلات"/>
+		<phrase id="recordchangedbyotheruser" value="تم تغيير البيانات بواسطة مستخدم آخر. انقر فوق [تحديث] لاستعادة البيانات التي تم تغييرها (البيانات في النموذج ستستبدل) أو فوق [استبدال] لاستبدال البيانات التي تم تغييرها."/>
+		<phrase id="recorddeleted" value="السجل(s) حذف"/>
+		<phrase id="recordinserted" value="السجل (s)في الادراج"/>
+		<phrase id="recordupdated" value="السجل(s) تحديث"/>
+		<phrase id="recordsperpage" value="حجم الصفحة"/>
+		<phrase id="register" value="تسجيل"/>
+		<phrase id="registerbtn" value="تسجيل"/>
+		<phrase id="registersuccess" value="تسجيل ناجح"/>
+		<phrase id="registersuccessactivate" value="نجح التسجيل. تم ارسال بريد الكتروني الى عنوان البريد الالكتروني الخاص بك ، الرجاء انقر فوق الارتباط الموجود في البريد الإلكتروني لتفعيل حسابك."/>
+		<phrase id="registerpage" value="صفحة التسجيل"/>
+		<phrase id="relatedrecordrequired" value="لا يمكنك إضافة أو تحديث سجل بسبب عدم وجود قيمة المفتاح الخارجي في الجدول الرئيسي '%t'"/>
+		<phrase id="relatedrecordexists" value="لا يمكنك حذف سجل لأن السجلات المرتبطة موجودة في جدول التفاصيل '%t'"/>
+		<phrase id="reloadbtn" value="تحديث الصفحة"/>
+		<phrase id="reloadlink" value="تحديث الصفحة"/>
+		<phrase id="rememberme" value="تذكرني"/>
+		<phrase id="remove" value="حذف"/>
+		<phrase id="replace" value="استبدال"/>
+		<phrase id="report" value="تقرير"/>
+		<phrase id="requestpwdpage" value="صفحة طلب كلمة المرور"/>
+		<phrase id="reset" value="إعادة تعيين"/>
+		<phrase id="resendregisteremailbtn" value="Resend registration email"/><!-- v12 -->
+		<phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent"/><!-- v12 -->
+		<phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed"/><!-- v12 -->
+		<phrase id="resetconcurrentuserbtn" value="Reset concurrent user session"/><!-- v12 -->
+		<phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset"/><!-- v12 -->
+		<phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'"/><!-- v12 -->
+		<phrase id="resetloginretrybtn" value="Reset login retry count"/><!-- v12 -->
+		<phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset"/><!-- v12 -->
+		<phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'"/><!-- v12 -->
+		<phrase id="resetsearchbtn" value="إعادة تعيين" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="resetsearch" value="إعادة تعيين"/>
+		<phrase id="rptavg" value="المتوسط"/>
+		<phrase id="rptdtlrec" value="سجلات التفاصيل"/>
+		<phrase id="rptgrandtotal" value="المجموع الكلي"/>
+		<phrase id="rptmax" value="الحد أعلى"/>
+		<phrase id="rptmin" value="الحد أدنى"/>
+		<phrase id="rptsum" value="المجموع"/>
+		<phrase id="rptsumhead" value="ملخص لـ"/>
+		<phrase id="savebtn" value="إحفظ"/><!-- v11 -->
+		<phrase id="savecurrentfilter" value="Save current filter"/><!-- v12 -->
+		<phrase id="saveusername" value="إحفظ اسم الدخول"/>
+		<phrase id="search" value="بحث"/>
+		<phrase id="searchbtn" value="بحث" class="glyphicon glyphicon-search ewIcon"/><!-- v11 -->
+		<phrase id="searchpanel" value="لوحة البحث"/><!-- v11 -->
+		<phrase id="sendemailbtn" value="ارسل"/>
+		<phrase id="sendemailsuccess" value="أُرسل البريد الالكتروني بنجاح" client="1"/>
+		<phrase id="sendpwd" value="أُرسل البريد الالكتروني بنجاح"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1"/><!-- v12 -->
+		<phrase id="sessionexpired" value="Your session has expired." client="1"/><!-- v12 -->
+		<phrase id="setpasswordexpiredbtn" value="Set password expired"/><!-- v12 -->
+		<phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired"/><!-- v12 -->
+		<phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired"/><!-- v12 -->
+		<phrase id="showallbtn" value="رؤية الكل" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="showall" value="رؤية الكل"/><!-- v11 -->
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="قسم&amp;nbsp;"/>
+		<phrase id="tbltypetable" value="جدول: "/>
+		<phrase id="tbltypeview" value="استعراض :"/>
+		<phrase id="tbltypecustomview" value="عرض مخصص: "/>
+		<phrase id="tbltypereport" value="تقرير: "/>
+		<phrase id="to" value="الى"/>
+		<phrase id="total" value="المحموع"/>
+		<phrase id="unauthorizeduserid" value="غير مسموح للمستخدم الحالي (%c) لتعيين هوية المستخدم (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="غير مسموح للمستخدم الحالي (%c) لتعيين هوية المستخدم الأب (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="غير مسموح للمستخدم الحالي (%c) لإدراج السجل. Master filter: %f"/>
+		<phrase id="update" value="تحديث"/>
+		<phrase id="updatebtn" value="تحديث"/>
+		<phrase id="updatecancelled" value="أٌلغي التحديث"/>
+		<phrase id="updatefailed" value="فشل التحديث"/>
+		<phrase id="updatelink" value="تحديث" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="updateselectall" value="اختيار كل"/><!-- v11 -->
+		<phrase id="updateselectedlink" value="تحديث السجلات المختارة" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="updatesuccess" value="نجح التحديث"/>
+		<phrase id="uploading" value="تحميل ..." client="1"/>
+		<phrase id="uploadstart" value="Start" client="1"/>
+		<phrase id="uploadcancel" value="الغاء" client="1"/>
+		<phrase id="uploaddelete" value="الغاء" client="1"/>
+		<phrase id="uploadoverwrite" value="الكتابة الملف القديم؟" client="1"/>
+		<phrase id="uploaderrmsg1" value=" يتجاوز الملف الذي تم تحميله التوجيه المرفوعة في ملف php.ini"/>
+		<phrase id="uploaderrmsg2" value="يتجاوز الملف الذي تم تحميله التوجيه MAX_FILE_SIZE الذي تم تحديده في شكل HTML"/>
+		<phrase id="uploaderrmsg3" value="تم تحميل الملف الذي تم تحميله بشكل جزئي فقط"/>
+		<phrase id="uploaderrmsg4" value="لم يتم تحميل اي ملف"/>
+		<phrase id="uploaderrmsg6" value="المجلد المؤقت مفقود"/>
+		<phrase id="uploaderrmsg7" value="فشل في إرسال الملف إلى القرص"/>
+		<phrase id="uploaderrmsg8" value="توقف ملحق PHP وتحميل الملف"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="يتجاوز الملف الذي تم تحميله التوجيه post_max_size في ملف php.ini"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="الملف كبير جدا" client="1"/>
+		<phrase id="uploaderrmsgminfilesize" value="ملف صغير جدا" client="1"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="لا يسمح نوع الملف" client="1"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="الحد الأقصى لعدد الملفات تجاوزت" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="تجاوزة الصورة الحد الاقصى للعرض" client="1"/>
+		<phrase id="uploaderrmsgminwidth" value="تتطلب الصورة الحد الأدنى من العرض" client="1"/>
+		<phrase id="uploaderrmsgmaxheight" value="تجاوزة الصورة اقصى ارتفاع" client="1"/>
+		<phrase id="uploaderrmsgminheight" value="الصورة يتطلب الحد الأدنى من الارتفاع" client="1"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="إجمالي طول أسماء الملفات يتجاوز طول الحقل" client="1"/>
+		<phrase id="useradministrator" value="Administrator" client="1"/><!-- v12 -->
+		<phrase id="useranonymous" value="Anonymous" client="1"/><!-- v12 -->
+		<phrase id="userdefault" value="Default" client="1"/><!-- v12 -->
+		<phrase id="useremail" value="البريد الالتروني"/>
+		<phrase id="userexists" value="المستخدم موجود بالفعل"/>
+		<phrase id="userlevel" value="مستوى العضو :"/>
+		<phrase id="userleveladministratorname" value="اسم مستوى المستخدم لمستوى المستخدم -1 يجب أن يكون &quot;مسؤول&quot;" client="1"/>
+		<phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1"/><!-- v12 -->
+		<phrase id="userlevelpermission" value="مستوى التصاريح"/>
+		<phrase id="userlevelidinteger" value="يجب أن يكون معرف المستخدم المستوى رقمي" client="1"/>
+		<phrase id="userleveldefaultname" value="يجب أن يكون الاسم مستوى المستخدم لمستوى المستخدم 0 'افتراضي'" client="1"/>
+		<phrase id="userlevelidincorrect" value="يجب أن يكون تعريف المستخدم معرف مستوى المستخدم أكبر من 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="يحددها المستخدم اسم المستخدم المستوى لا يمكن أن يكون 'المسؤول' أو 'افتراضي'" client="1"/>
+		<phrase id="userloggedin" value="المستخدم '%u' بالفعل مسجل دخول!"/>
+		<phrase id="username" value="اسم العضو"/>
+		<phrase id="userprofilecorrupted" value="تلف ملف تعريف المستخدم. من فضلك خروج والدخول مرة أخرى"/>
+		<phrase id="valuenotexist" value="Value does not exist" client="1"/><!-- v11 -->
+		<phrase id="view" value="استعراض"/>
+		<phrase id="viewimagegallery" value="استعراض صورة"/><!-- v12 -->
+		<phrase id="viewlink" value="استعراض" class="icon-view ewIcon"/><!-- v11 -->
+		<phrase id="viewpageaddlink" value="اضافة" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="viewpagecopylink" value="نسخ" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedeletelink" value="حذف" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="تعديل" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="wrongfiletype" value="نوع الملف غير مسموح به." client="1"/>
+		<phrase id="separator" value="، " client="1"/>
+		<phrase id="tableorview" value="جداول"/>
+		<phrase id="=" value=" "/>
+		<phrase id="equal" value="="/><!-- v12 -->
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="تحتوي"/>
+		<phrase id="not like" value="لاتحتوي"/>
+		<phrase id="starts with" value="تبدأ بـ"/>
+		<phrase id="ends with" value="تنتهي بـ"/>
+		<phrase id="is null" value="فارغة"/>
+		<phrase id="is not null" value="ليست فارغة"/>
+		<phrase id="between" value="بين"/>
+		<phrase id="and" value="و"/>
+		<phrase id="or" value="او"/>
+	</global>
+	<project><phrase id="bodytitle" value="Asterisk Call Recording Reports System"/>
+<phrase id="footertext" value="&amp;copy;2024 Development by Saeed Nobakht"/>
+<menu id="5"><phrase id="menutext" value="ConfigTxT"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="Config"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="Config.Inc"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="سجلات تفاصيل المكالمة"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="RecordingFile"/>
+</menu>
+<table id="cdr"><phrase id="tblcaption" value="سجلات تفاصيل المكالمة"/>
+<field id="calldate"><phrase id="fldcaption" value="DateTime"/>
+</field>
+<field id="clid"><phrase id="fldcaption" value="CallerID"/>
+</field>
+<field id="src"><phrase id="fldcaption" value="Src"/>
+</field>
+<field id="dst"><phrase id="fldcaption" value="Callee"/>
+</field>
+<field id="dcontext"><phrase id="fldcaption" value="Context"/>
+</field>
+<field id="channel"><phrase id="fldcaption" value="Channel"/>
+</field>
+<field id="dstchannel"><phrase id="fldcaption" value="Trunk"/>
+</field>
+<field id="lastapp"><phrase id="fldcaption" value="LastApp"/>
+</field>
+<field id="lastdata"><phrase id="fldcaption" value="LastData"/>
+</field>
+<field id="duration"><phrase id="fldcaption" value="Duration"/>
+</field>
+<field id="billsec"><phrase id="fldcaption" value="BillSec"/>
+</field>
+<field id="disposition"><phrase id="fldcaption" value="Disposition"/>
+</field>
+<field id="amaflags"><phrase id="fldcaption" value="AmaFlags"/>
+</field>
+<field id="accountcode"><phrase id="fldcaption" value="AccountCode"/>
+</field>
+<field id="uniqueid"><phrase id="fldcaption" value="UniqueID"/>
+</field>
+<field id="userfield"><phrase id="fldcaption" value="UserField"/>
+</field>
+<field id="did"><phrase id="fldcaption" value="DID"/>
+</field>
+<field id="recordingfile"><phrase id="fldcaption" value="RecordingFile"/>
+</field>
+<field id="cnum"><phrase id="fldcaption" value="Caller"/>
+</field>
+<field id="cnam"><phrase id="fldcaption" value="Extension"/>
+</field>
+<field id="outbound_cnum"><phrase id="fldcaption" value="Outbound"/>
+</field>
+<field id="outbound_cnam"><phrase id="fldcaption" value="Outbound Name"/>
+</field>
+<field id="dst_cnam"><phrase id="fldcaption" value="Destination Name"/>
+</field>
+<field id="linkedid"><phrase id="fldcaption" value="LinkedID"/>
+</field>
+<field id="peeraccount"><phrase id="fldcaption" value="Peer Account"/>
+</field>
+<field id="sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="play"><phrase id="fldcaption" value="Play"/>
+</field>
+<field id="recording_name"><phrase id="fldcaption" value="File Name"/>
+</field>
+</table>
+<table id="recordingfile_php"><phrase id="tblcaption" value="RecordingFile"/>
+</table>
+<table id="config_inc_php"><phrase id="tblcaption" value="Config.Inc"/>
+</table>
+<table id="config_php"><phrase id="tblcaption" value="Config"/>
+</table>
+<table id="config_txt"><phrase id="tblcaption" value="ConfigTxT"/>
+</table>
+</project>
+</ew-language>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ew-language date="2024/9/16" version="12.0.6" id="fa" dir="rtl" name="Persian" desc="Persian" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="GMT"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="موارد حذف شد"/>
+		<phrase id="actioninserted" value="مورد ذخیره شد"/>
+		<phrase id="actioninsertedgridadd" value="موارد ذخیره شد"/>
+		<phrase id="actionupdated" value="مورد بروز رسانی شد"/>
+		<phrase id="actionupdatedgridedit" value="موارد بروز رسانی شد"/>
+		<phrase id="actionupdatedmultiupdate" value="موارد یکجا بروز رسانی شد"/>
+		<phrase id="activateaccount" value="اکانت کاربری شما فعال شد"/>
+		<phrase id="activatefailed" value="فعال سازی با خطا مواجه شد و تکمیل نشد"/>
+		<phrase id="add" value="افزودن"/>
+		<phrase id="addblankrow" value="افزودن سطر جدید" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addbtn" value="افزودن مورد"/>
+		<phrase id="addlink" value="افزودن مورد جديد" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addmasterdetaillink" value="Master/Detail افزودن" class="icon-md-add ewIcon"/><!-- v11 -->
+		<phrase id="addsuccess" value="مورد جديد افزوده شد"/>
+		<phrase id="advancedsearch" value="جستجوى پيشرفته"/><!-- v11 -->
+		<phrase id="advancedsearchbtn" value="Advanced Search" class="icon-advanced-search ewIcon"/><!-- v11 -->
+		<phrase id="allrecords" value="همه موردها"/>
+		<phrase id="allword" value="شامل تمام کلمات"/>
+		<phrase id="alwaysask" value="همیشه نام کاربری و رمز عبور درخواست شود"/>
+		<phrase id="anyword" value="شامل هر کلمه"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="ورود اتوماتیک تا درخواست خروج دهم"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="بازگشت به ليست&amp;nbsp;&gt;"/>
+		<phrase id="backtologin" value="برگشتن به صفحه ورود سيستم"/>
+		<phrase id="backtomasterrecordpage" value="Back to master table"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="buttonactions" value="Actions" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonaddedit" value="Add/Edit" class="icon-addedit ewIcon"/><!-- v11 -->
+		<phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="buttonexport" value="Export" class="icon-export ewIcon"/><!-- v11 -->
+		<phrase id="buttonlistoptions" value="Options" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonsearch" value="Search" class="icon-search ewIcon"/><!-- v11 -->
+		<phrase id="cancelbtn" value="&amp;nbsp;&amp;nbsp;برگشت&amp;nbsp;&amp;nbsp;"/>
+		<phrase id="cancellink" value="صرف نظر" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="changepwd" value="تغيير کلمه عبور"/>
+		<phrase id="changepwdpage" value="صفحه تغيير کلمه عبور"/>
+		<phrase id="changepwdbtn" value="تغيير کلمه عبور"/>
+		<phrase id="choosefilebtn" value="انتخاب کنید..."/><!-- v11 -->
+		<phrase id="choosefile" value="فایل را انتخاب کنید"/><!-- v11 -->
+		<phrase id="choosefiles" value="فایل‌ها را انتخاب کنید"/><!-- v11 -->
+		<phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1"/><!-- v12 -->
+		<phrase id="confirm" value="تصديق"/>
+		<phrase id="confirmbtn" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;تایید&amp;nbsp;&amp;nbsp;&amp;nbsp;"/>
+		<phrase id="confirmcancel" value="Do you want to cancel?" client="1"/><!-- v12 -->
+		<phrase id="confirmpassword" value="تصديق کلمه عبور :"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="lightboxtitle" value=" " client="1"/><!-- v11 -->
+		<phrase id="lightboxcurrent" value="image {current} of {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+		<phrase id="lightboxprevious" value="previous" client="1"/><!-- v11 -->
+		<phrase id="lightboxnext" value="next" client="1"/><!-- v11 -->
+		<phrase id="lightboxclose" value="close" client="1"/><!-- v11 -->
+		<phrase id="lightboxxhrerror" value="This content failed to load." client="1"/><!-- v11 -->
+		<phrase id="lightboximgerror" value="This image failed to load." client="1"/><!-- v11 -->
+		<phrase id="copy" value="کپى"/>
+		<phrase id="copylink" value="کپى" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="count" value="Count"/>
+		<phrase id="countselected" value="%s selected" client="1"/><!-- v12 -->
+		<phrase id="currentpassword" value="Current password: " client="1"/><!-- v12 -->
+		<phrase id="customactioncompleted" value="Action '%s' is completed"/>
+		<phrase id="customactioncancelled" value="Action '%s' is cancelled"/>
+		<phrase id="customactionfailed" value="'%s' failed"/><!-- v12 -->
+		<phrase id="customactionnotallowed" value="'%s' not allowed"/><!-- v12 -->
+		<phrase id="customview" value="دپارتمان&amp;nbsp;"/>
+		<phrase id="delete" value="حذف"/>
+		<phrase id="deletebtn" value="تأ ييد خذف"/>
+		<phrase id="deletecancelled" value="عملیات حذف لغو شد"/>
+		<phrase id="deleteconfirmmsg" value="آیا از حذف این موارد اطمینان دارید؟" client="1"/>
+		<phrase id="deletefilter" value="حذف فیلتر"/><!-- v12 -->
+		<phrase id="deletefilterconfirm" value="فیلتر %s حذف شود؟" client="1"/><!-- v12 -->
+		<phrase id="deletelink" value="حذف" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deleteselectedlink" value="حذف موارد انتخابى" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deletesuccess" value="حذف موردها انجام شد"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="&lt;span dir='rtl'&gt;(%c)&lt;/span&gt;"/><!-- v11 -->
+		<phrase id="masterdetailcopylink" value="Master/Detail کپی" class="icon-md-copy ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaileditlink" value="Master/Detail ویرایش" class="icon-md-edit ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaillistlink" value="Detail لیست" class="icon-table ewIcon"/><!-- v11 -->
+		<phrase id="masterdetailviewlink" value="Master/Detail نمایش" class="icon-md-view ewIcon"/><!-- v11 -->
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="ويرايش"/>
+		<phrase id="editlink" value="ويرايش" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="enterfiltername" value="نام فیلتر را وارد کنید" client="1"/><!-- v12 -->
+		<phrase id="enternewpassword" value="پسوورد جدید را وارد کنید" client="1"/>
+		<phrase id="enteroldpassword" value="پسوورد قدیمی را وارد کنید" client="1"/>
+		<phrase id="enterpassword" value="پسوورد را وارد کنید" client="1"/>
+		<phrase id="enterpwd" value="پسوورد را وارد کنید" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field - %s"/><!-- v11 -->
+		<phrase id="entersearchcriteria" value="لطفا ضوابط نمایش را وارد کنید"/>
+		<phrase id="enterusername" value="نام کاربری را وارد کنید" client="1"/>
+		<phrase id="entervalidatecode" value="کد امنیتی نشان داده شده را وارد کنید" client="1"/><!-- v11 -->
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="دقيقاً شامل عبارت"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV" class="icon-csv ewIcon"/><!-- v11 -->
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" class="icon-email ewIcon"/><!-- v11 -->
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ewIcon"/><!-- v11 -->
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML" class="icon-html ewIcon"/><!-- v11 -->
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ewIcon"/><!-- v11 -->
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="Export to Word" class="icon-word ewIcon"/><!-- v11 -->
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="Export to XML" class="icon-xml ewIcon"/><!-- v11 -->
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="ارسال ایمیل با مشکل مواجه شد."/>
+		<phrase id="fieldname" value="نام&amp;nbsp;فیلد"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="File not found"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="filter" value="Filter"/><!-- v12 -->
+		<phrase id="filtername" value="Filter name" client="1"/><!-- v12 -->
+		<phrase id="filters" value="Filters" class="icon-filter ewIcon"/><!-- v12 -->
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="بازیابی کلمه عبور"/>
+		<phrase id="goback" value="بازگشت به ليست&amp;nbsp;&gt;"/>
+		<phrase id="gridaddcancelled" value="لغو افزودن کلی"/><!-- v11 -->
+		<phrase id="gridaddlink" value="افزودن کلی موارد" class="icon-grid-add ewIcon"/><!-- v11 -->
+		<phrase id="gridcancellink" value="صرف نظر" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="grideditcancelled" value="لغو ویرایش کلی"/><!-- v11 -->
+		<phrase id="grideditlink" value="ویرایش کلی موارد" class="icon-grid-edit ewIcon"/><!-- v11 -->
+		<phrase id="gridinsertlink" value="ذخیره سازی" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="gridsavelink" value="ذخیره سازی" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="highlight" value="پررنگ‌ها"/><!-- v11 -->
+		<phrase id="highlightbtn" value="پررنگ‌ها" class="icon-highlight ewIcon"/><!-- v11 -->
+		<phrase id="homepage" value="صفحه اصلی" class="glyphicon glyphicon-home ewIcon"/><!-- v11 -->
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="افزودن مورد همین‌جا" class="icon-inline-add ewIcon"/><!-- v11 -->
+		<phrase id="inlinecopylink" value="کپی همین‌جا" class="icon-inline-copy ewIcon"/><!-- v11 -->
+		<phrase id="inlineeditlink" value="ویرایش همین‌جا" class="icon-inline-edit ewIcon"/><!-- v11 -->
+		<phrase id="insertcancelled" value="عملیات ذخیره‌سازی لغو شد"/>
+		<phrase id="insertfailed" value="عملیات ذخیره سازی موفق نشد" client="1"/>
+		<phrase id="insertlink" value="ذخیره سازی" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="insertsuccess" value="عملیات ذخیره سازی انجام شد"/>
+		<phrase id="invalidemail" value="ايميل در سيستم موجود نمى باشد"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidpostrequest" value="Invalid post request"/><!-- v11 -->
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="کلمه عبور صحيح نمى باشد"/>
+		<phrase id="invalidnewpassword" value="کلمه عبور جدید صحيح نمى باشد"/>
+		<phrase id="invaliduidpwd" value="نام کاربرى و يا کلمه عبور شما نادرست است"/>
+		<phrase id="keep" value="نگه داشتن"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="listactionbutton" value="Actions" class="icon-user ewIcon"/><!-- v12 -->
+		<phrase id="loading" value="بارگذاری..." client="1"/>
+		<phrase id="login" value="ورود به سيستم"/>
+		<phrase id="logincancelled" value="عملیات ورود به سیستم لغو شد"/>
+		<phrase id="loginoptions" value="تنظیمات"/><!-- v11 -->
+		<phrase id="loginpage" value="صفحه ورود به سيستم"/>
+		<phrase id="logout" value="خروج از سيستم"/>
+		<phrase id="masterrecord" value="مورد اصلى&amp;nbsp;:"/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1"/>
+		<phrase id="messageok" value="OK" client="1"/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="new" value="جدید"/>
+		<phrase id="newpassword" value="کلمه عبور جديد :"/>
+		<phrase id="newvalue" value="New value"/><!-- v12 -->
+		<phrase id="next" value="بعدى" client="1"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="مجوز دسترسى به این قسمت را نداريد"/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="موردى يافته نشد"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="موردی انتخاب نشده" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="nouserlevel" value="No user level settings."/>
+		<phrase id="of" value="از"/>
+		<phrase id="old" value="قبلی"/>
+		<phrase id="oldpassword" value="کلمه عبور قبلى :"/>
+		<phrase id="optionalreadyexist" value="گزینه مورد نظر در سیستم موجود است"/>
+		<phrase id="page" value="صفحه"/>
+		<phrase id="pagerfirst" value="اولين"/>
+		<phrase id="pagerlast" value="آخرين"/>
+		<phrase id="pagernext" value="بعدى"/>
+		<phrase id="pagerprevious" value="قبلى"/>
+		<phrase id="password" value="کلمه عبور"/>
+		<phrase id="passwordmask" value="********"/><!-- v12 -->
+		<phrase id="passwordrequest" value="درخواست رمز عبور"/>
+		<phrase id="passwordchanged" value="تغيير کلمه عبور انجام شد"/>
+		<phrase id="passwordexpired" value="اعتبار کلمه عبور تمام شده، لطفا کلمه عبور را تغییر دهید."/>
+		<phrase id="passwordstrength" value="Strength: %p" client="1"/><!-- v12 -->
+		<phrase id="passwordtoosimple" value="Your password is too simple" client="1"/><!-- v12 -->
+		<phrase id="generatepassword" value="Generate password" class="glyphicon glyphicon-flash ewIcon"/><!-- v12 -->
+		<phrase id="permission" value="مجوزهای دسترسی" class="icon-user ewIcon"/><!-- v11 -->
+		<phrase id="permissionaddcopy" value="افزودن/کپی"/>
+		<phrase id="permissiondelete" value="حذف"/>
+		<phrase id="permissionedit" value="ویرایش"/>
+		<phrase id="permissionlistsearchview" value="لیست/نمایش/جستجو"/>
+		<phrase id="permissionlist" value="لیست"/>
+		<phrase id="permissionsearch" value="جستجو"/>
+		<phrase id="permissionview" value="نمایش"/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="لطفا انتخاب کنيد" client="1"/>
+		<phrase id="pleasewait" value="Please wait..." client="1"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="نسخه مناسب چاپ" class="icon-print ewIcon"/><!-- v11 -->
+		<phrase id="printerfriendlytext" value="نسخه مناسب چاپ"/>
+		<phrase id="prev" value="قبلى" client="1"/><!-- v12 -->
+		<phrase id="pwdsmssent" value="نام‌کاربری و رمزعبور شما به شماره همراهتان پیامک شد"/>
+		<phrase id="pwdemailsent" value="مشخصات كاربری به ايميل شما ارسال شد"/>
+		<phrase id="pwdsmsnotsent" value="ارسال پیامک حاوی اطلاعات کاربری با مشکل مواجه شد"/>
+		<phrase id="resetpwdemailsent" value="The reset password email has been sent to you"/>
+		<phrase id="quicksearch" value="جستجوى سريع"/>
+		<phrase id="quicksearchbtn" value="&amp;nbsp;&amp;nbsp;جستجو&amp;nbsp;&amp;nbsp;"/>
+		<phrase id="quicksearchauto" value="Auto" client="1"/><!-- v11 -->
+		<phrase id="quicksearchautoshort" value="" client="1"/><!-- v11 -->
+		<phrase id="quicksearchall" value="All keywords" client="1"/><!-- v11 -->
+		<phrase id="quicksearchallshort" value="All" client="1"/><!-- v11 -->
+		<phrase id="quicksearchany" value="Any keywords" client="1"/><!-- v11 -->
+		<phrase id="quicksearchanyshort" value="Any" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexact" value="Exact match" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexactshort" value="Exact" client="1"/><!-- v11 -->
+		<phrase id="record" value="موردها"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="مورد‌ها حذف شد"/>
+		<phrase id="recordinserted" value="مورد‌ها ذخیره‌سازی شد"/>
+		<phrase id="recordupdated" value="مورد‌ها بروز رسانی شد"/>
+		<phrase id="recordsperpage" value="موردها در هر صفحه:"/>
+		<phrase id="register" value="ثبت نام"/>
+		<phrase id="registerbtn" value="&amp;nbsp;&amp;nbsp;ثبت نام&amp;nbsp;&amp;nbsp;"/>
+		<phrase id="registersuccess" value="ثبت نام انجام شد"/>
+		<phrase id="registersuccessactivate" value="ثبت نام انجام شد. یک ایمیل که حاوی لینک فعال سازی می‌باشد، به آدرس ایمیل شما ارسال شد.&lt;br&gt;لطفا برای فعال سازی اکانت کاربری خود توسط مدیریت روی آن لینک کلیک کنید."/>
+		<phrase id="registerpage" value="صفحه ثبت نام"/>
+		<phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
+		<phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="بخاطر داشتن مشخصات ورود"/>
+		<phrase id="remove" value="برچيدن"/>
+		<phrase id="replace" value="جايگزين"/>
+		<phrase id="report" value="دپارتمان گزارش"/>
+		<phrase id="requestpwdpage" value="صفحه درخواست کلمه عبور"/>
+		<phrase id="reset" value="تنظیم مجدد"/>
+		<phrase id="resendregisteremailbtn" value="Resend registration email"/><!-- v12 -->
+		<phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent"/><!-- v12 -->
+		<phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed"/><!-- v12 -->
+		<phrase id="resetconcurrentuserbtn" value="Reset concurrent user session"/><!-- v12 -->
+		<phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset"/><!-- v12 -->
+		<phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'"/><!-- v12 -->
+		<phrase id="resetloginretrybtn" value="Reset login retry count"/><!-- v12 -->
+		<phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset"/><!-- v12 -->
+		<phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'"/><!-- v12 -->
+		<phrase id="resetsearchbtn" value="پاکسازی ضوابط جستجو" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="resetsearch" value="پاکسازی ضوابط جستجو"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="جزئيات موردها"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="savebtn" value="ذخیره"/><!-- v11 -->
+		<phrase id="savecurrentfilter" value="ذخیره فیلتر جاری"/><!-- v12 -->
+		<phrase id="saveusername" value="فقط نام کاربری ذخیره شود"/>
+		<phrase id="search" value="جستجو"/>
+		<phrase id="searchbtn" value="جستجو" class="glyphicon glyphicon-search ewIcon"/><!-- v11 -->
+		<phrase id="searchpanel" value="پنل جستجوی سریع"/><!-- v11 -->
+		<phrase id="sendemailbtn" value="ارسال"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="ارسال کلمه عبور"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1"/><!-- v12 -->
+		<phrase id="sessionexpired" value="Your session has expired." client="1"/><!-- v12 -->
+		<phrase id="setpasswordexpiredbtn" value="Set password expired"/><!-- v12 -->
+		<phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired"/><!-- v12 -->
+		<phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired"/><!-- v12 -->
+		<phrase id="showallbtn" value="Show all" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="showall" value="نمایش تمام موارد"/><!-- v11 -->
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="دپارتمان&amp;nbsp;"/>
+		<phrase id="tbltypetable" value="دپارتمان: "/>
+		<phrase id="tbltypeview" value="نمایش: "/>
+		<phrase id="tbltypecustomview" value="دپارتمان: "/>
+		<phrase id="tbltypereport" value="گزارش: "/>
+		<phrase id="to" value="تا"/>
+		<phrase id="total" value="جمع کل"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="update" value="به روز رسانى"/>
+		<phrase id="updatebtn" value="به روز رسانى"/>
+		<phrase id="updatecancelled" value="عملیات بروز رسانی لغو شد"/>
+		<phrase id="updatefailed" value="عملیات بروز رسانی موفق نشد"/>
+		<phrase id="updatelink" value="بروز رسانی" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="updateselectall" value="انتخاب همه موارد"/><!-- v11 -->
+		<phrase id="updateselectedlink" value="ویرایش موردهای انتخاب شده" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="updatesuccess" value="عملیات بروز رسانی انجام شد"/>
+		<phrase id="uploading" value="Uploading..." client="1"/>
+		<phrase id="uploadstart" value="شروع" client="1"/>
+		<phrase id="uploadcancel" value="لغو آپلود" client="1"/>
+		<phrase id="uploaddelete" value="حذف مورد" client="1"/>
+		<phrase id="uploadoverwrite" value="Overwrite old file?" client="1"/>
+		<phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
+		<phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
+		<phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded"/>
+		<phrase id="uploaderrmsg4" value="No file was uploaded"/>
+		<phrase id="uploaderrmsg6" value="Missing a temporary folder"/>
+		<phrase id="uploaderrmsg7" value="Failed to write file to disk"/>
+		<phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1"/>
+		<phrase id="uploaderrmsgminfilesize" value="File is too small" client="1"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="نوع فایل برای این فیلد مجاز نیست" client="1"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width" client="1"/>
+		<phrase id="uploaderrmsgminwidth" value="Image requires a minimum width" client="1"/>
+		<phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height" client="1"/>
+		<phrase id="uploaderrmsgminheight" value="Image requires a minimum height" client="1"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1"/>
+		<phrase id="useradministrator" value="Administrator" client="1"/><!-- v12 -->
+		<phrase id="useranonymous" value="Anonymous" client="1"/><!-- v12 -->
+		<phrase id="userdefault" value="Default" client="1"/><!-- v12 -->
+		<phrase id="useremail" value="آدرس ايمیل شما :"/>
+		<phrase id="userexists" value="اين نام كاربرى قبلا ثبت شده است!"/>
+		<phrase id="userlevel" value="سطح دسترسی: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1"/><!-- v12 -->
+		<phrase id="userlevelpermission" value="سطوح مجوزهای کاربران سیستم"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="نام کاربرى"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="valuenotexist" value="Value does not exist" client="1"/><!-- v11 -->
+		<phrase id="view" value="نمايش"/>
+		<phrase id="viewimagegallery" value="Click to view image"/><!-- v12 -->
+		<phrase id="viewlink" value="نمايش" class="icon-view ewIcon"/><!-- v11 -->
+		<phrase id="viewpageaddlink" value="افزودن مورد" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="viewpagecopylink" value="نسخه برداری" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedeletelink" value="حذف" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedetaillink" value="..."/>
+		<phrase id="viewpageeditlink" value="ویرایش" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="separator" value="، " client="1"/>
+		<phrase id="tableorview" value="دپارتمان"/>
+		<phrase id="=" value=" "/>
+		<phrase id="equal" value="="/><!-- v12 -->
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="شامل"/>
+		<phrase id="not like" value="شامل نبودن"/>
+		<phrase id="starts with" value="شروع با"/>
+		<phrase id="ends with" value="پایان با"/>
+		<phrase id="is null" value="is null"/>
+		<phrase id="is not null" value="is not null"/>
+		<phrase id="between" value="مابین"/>
+		<phrase id="and" value="و"/>
+		<phrase id="or" value="یا"/>
+	</global>
+	<project><phrase id="bodytitle" value="Asterisk Call Recording Reports System"/>
+<phrase id="footertext" value="&amp;copy;2024 Development by Saeed Nobakht"/>
+<menu id="5"><phrase id="menutext" value="ConfigTxT"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="Config"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="Config.Inc"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="لیست رکورد مکالمات"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="RecordingFile"/>
+</menu>
+<table id="cdr"><phrase id="tblcaption" value="لیست رکورد مکالمات"/>
+<field id="calldate"><phrase id="fldcaption" value="DateTime"/>
+</field>
+<field id="clid"><phrase id="fldcaption" value="CallerID"/>
+</field>
+<field id="src"><phrase id="fldcaption" value="Src"/>
+</field>
+<field id="dst"><phrase id="fldcaption" value="Callee"/>
+</field>
+<field id="dcontext"><phrase id="fldcaption" value="Context"/>
+</field>
+<field id="channel"><phrase id="fldcaption" value="Channel"/>
+</field>
+<field id="dstchannel"><phrase id="fldcaption" value="Trunk"/>
+</field>
+<field id="lastapp"><phrase id="fldcaption" value="LastApp"/>
+</field>
+<field id="lastdata"><phrase id="fldcaption" value="LastData"/>
+</field>
+<field id="duration"><phrase id="fldcaption" value="Duration"/>
+</field>
+<field id="billsec"><phrase id="fldcaption" value="BillSec"/>
+</field>
+<field id="disposition"><phrase id="fldcaption" value="Disposition"/>
+</field>
+<field id="amaflags"><phrase id="fldcaption" value="AmaFlags"/>
+</field>
+<field id="accountcode"><phrase id="fldcaption" value="AccountCode"/>
+</field>
+<field id="uniqueid"><phrase id="fldcaption" value="UniqueID"/>
+</field>
+<field id="userfield"><phrase id="fldcaption" value="UserField"/>
+</field>
+<field id="did"><phrase id="fldcaption" value="DID"/>
+</field>
+<field id="recordingfile"><phrase id="fldcaption" value="RecordingFile"/>
+</field>
+<field id="cnum"><phrase id="fldcaption" value="Caller"/>
+</field>
+<field id="cnam"><phrase id="fldcaption" value="Extension"/>
+</field>
+<field id="outbound_cnum"><phrase id="fldcaption" value="Outbound"/>
+</field>
+<field id="outbound_cnam"><phrase id="fldcaption" value="Outbound Name"/>
+</field>
+<field id="dst_cnam"><phrase id="fldcaption" value="Destination Name"/>
+</field>
+<field id="linkedid"><phrase id="fldcaption" value="LinkedID"/>
+</field>
+<field id="peeraccount"><phrase id="fldcaption" value="Peer Account"/>
+</field>
+<field id="sequence"><phrase id="fldcaption" value="Sequence"/>
+</field>
+<field id="play"><phrase id="fldcaption" value="Play"/>
+</field>
+<field id="recording_name"><phrase id="fldcaption" value="File Name"/>
+</field>
+</table>
+<table id="recordingfile_php"><phrase id="tblcaption" value="RecordingFile"/>
+</table>
+<table id="config_inc_php"><phrase id="tblcaption" value="Config.Inc"/>
+</table>
+<table id="config_php"><phrase id="tblcaption" value="Config"/>
+</table>
+<table id="config_txt"><phrase id="tblcaption" value="ConfigTxT"/>
+</table>
+</project>
+</ew-language>
