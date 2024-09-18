@@ -8,5 +8,5 @@
 <br />
 
 > **Disclaimer:** This project is only for personal usage and communication, please do not sell this script
-> **Disclaimer:** This project is only for personal usage and communication, please do not sell this script
+
 
