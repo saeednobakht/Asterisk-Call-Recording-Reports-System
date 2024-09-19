@@ -9,7 +9,7 @@
 
 > **Disclaimer:** This project is only for personal usage and communication, please do not sell this script
 
-## Install 
+## Install on Server
 Just download and extract `zpanel.zip` file in this path on your Asterisk, Issabel or Freepbx server:
 ```
 /var/www/html
