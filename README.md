@@ -11,7 +11,10 @@
 
 ## Install 
 Just download and extract `zpanel.zip` file in this path on your Asterisk, Issabel or Freepbx server:
-
 ```
 /var/www/html
+```
+Access to report panel via this address:
+```
+http://server_ip/xpanel
 ```
