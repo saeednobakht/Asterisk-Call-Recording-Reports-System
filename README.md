@@ -18,3 +18,9 @@ Access to report panel via this address:
 ```
 http://server_ip/xpanel
 ```
+## Admin UaserName and Password 
+The default admin username and password is:
+```
+UserName: admin
+Password: admin
+```
