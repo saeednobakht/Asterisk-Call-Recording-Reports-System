@@ -28,3 +28,6 @@ You can change admin username and password via this file:
 ```
 config.php
 ```
+## Preview
+
+![1](https://res.cloudinary.com/dhxnzsffg/image/upload/v1726764250/img/2024-09/2024-09-19_201027_kpitm8.jpg)
