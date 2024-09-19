@@ -30,4 +30,4 @@ config.php
 ```
 ## Preview
 
-![1](https://res.cloudinary.com/dhxnzsffg/image/upload/v1726764250/img/2024-09/2024-09-19_201027_kpitm8.jpg)
+![1](https://res.cloudinary.com/dhxnzsffg/image/upload/v1726764340/img/2024-09/2024-09-19_201027_aelw50.jpg)
