@@ -24,3 +24,7 @@ The default admin username and password is:
 UserName: admin
 Password: admin
 ```
+You can change admin username and password via this file
+```
+config.php
+```
