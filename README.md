@@ -10,7 +10,7 @@
 > **Disclaimer:** This project is only for personal usage and communication, please do not sell this script
 
 ## Install 
-Just download and extract zpanel.zip file in this path on your Asterisk, Issabel or Freepbx server `v1.0.0`:
+Just download and extract `zpanel.zip` file in this path on your Asterisk, Issabel or Freepbx server:
 
 ```
 /var/www/html
